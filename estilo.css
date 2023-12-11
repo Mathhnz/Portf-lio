@@ -141,7 +141,7 @@ a {
 .social .sombra {
     border: 4px solid var(--cor-principal-texto-claro);
     border-radius: 8px;
-    width: 640px;
+    width: 300px;
     height: 64px;
 
     position: absolute;
@@ -150,7 +150,7 @@ a {
 }
 
 .social a {
-    width: 640px;
+    width: 300px;
     /*tirar*/
     height: 64px;
     font-size: 24px;
@@ -204,7 +204,7 @@ svg {
     border: 4px solid var(--cor-principal-texto-claro);
     border-radius: 8px;
     background-color: var(--cor-principal-texto-claro);
-    width: 640px;
+    width: 300px;
     height: 64px;
 
     position: absolute;
@@ -273,3 +273,12 @@ footer p span {
         transform: scale(1)
     }
 }
+
+@media (min-width: 750px){
+    .social .sombra,
+    .social a,
+    .social-container .sombra {
+        width: 640px;
+    }
+}
+
